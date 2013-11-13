@@ -4,7 +4,11 @@ Some RSS Feeds don't include actual content, forcing you to click on the link an
 
 This is a Flask app which contains proxy feeds which augment the original feed with actual content.
 
-So far, I've only added augmenters for [Toothpaste for Dinner](http://www.toothpastefordinner.com/) and [Dilbert](http://www.dilbert.com/). Feel free to add your own augmenters.
+So far, these are the augmenters I've added. Feel free to add your own augmenters.
+
+- [Toothpaste for Dinner](http://www.toothpastefordinner.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/tpfd)
+- [Dilbert](http://www.dilbert.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/dilbert)
+
 
 The app is hosted on Heroku ([http://augmented-rss.herokuapp.com](http://augmented-rss.herokuapp.com)).
 
