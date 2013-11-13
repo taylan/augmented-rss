@@ -1,6 +1,6 @@
 ### Augmented RSS Feeds
 
-Some RSS Feeds don't include the actual content, forcing you to click on the link and go to the site (which defeats the purpose of RSS in my opinion).
+Some RSS Feeds don't include actual content, forcing you to click on the link and go to the site (which defeats the purpose of RSS in my opinion).
 
 This is a Flask app which contains proxy feeds which augment the original feed with actual content.
 

@@ -13,7 +13,7 @@ class DilbertFeed(AugmentedFeedBase):
     @staticmethod
     def _get_comic_image_path(url):
         path = BeautifulSoup(get(url, headers=default_headers).text).select('.STR_Image img')[0]["src"]
-        return 'http://www.dilbert.com/{0}'.format(path)
+        return 'http://www.dilbert.com{0}'.format(path)
 
     def augment(self, feed=None):
         if not feed:
