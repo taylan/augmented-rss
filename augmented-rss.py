@@ -6,11 +6,10 @@ app = Flask(__name__)
 
 @app.route('/feed/<feedname>')
 def feed(feedname):
-    augmenter = feeds.get(feedname, None)
-    if not augmenter:
+    if feedname not in feeds:
         abort(404)
 
-    return Response(augmenter.augment().to_xml(), mimetype='text/xml')
+    return Response(feeds.get(feedname).augment().to_xml(encoding='utf-8'), mimetype='text/xml')
 
 
 if __name__ == '__main__':

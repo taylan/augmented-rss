@@ -40,11 +40,11 @@ class ToothpasteForDinnerFeed(AugmentedFeedBase):
         ]
 
         rss = PyRSS2Gen.RSS2(
-            title=feed['feed'].get("title"),
-            link=feed['feed'].get("link"),
-            description=feed['feed'].get("description"),
-            language=feed['feed'].get("language"),
-            copyright=feed['feed'].get("copyright"),
+            title=feed['feed'].get('title'),
+            link=feed['feed'].get('link'),
+            description=feed['feed'].get('description'),
+            language=feed['feed'].get('language'),
+            copyright=feed['feed'].get('copyright'),
             managingEditor=feed.feed['publisher'],
             pubDate=feed.feed['published'],
             lastBuildDate=feed.feed['published'],

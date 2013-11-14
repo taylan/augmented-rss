@@ -3,6 +3,7 @@ default_headers = {
 
 from .ToothpasteForDinnerFeed import ToothpasteForDinnerFeed
 from .DilbertFeed import DilbertFeed
+from .SaturdayMorningBreakfastCerealFeed import SaturdayMorningBreakfastCerealFeed
 
 _instances = [instance() for name, instance in globals().items() if name.endswith('Feed')]
 feeds = {i.name: i for i in _instances}
