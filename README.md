@@ -9,6 +9,7 @@ So far, these are the augmenters I've added. Feel free to add your own and send 
 - [Toothpaste for Dinner](http://www.toothpastefordinner.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/tpfd)
 - [Dilbert](http://www.dilbert.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/dilbert)
 - [Saturday Morning Breakfast Cereal](http://www.smbc-comics.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/smbc)
+- [Hover States](http://hoverstat.es/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/hover-states)
 
 
 The app is hosted on Heroku ([http://augmented-rss.herokuapp.com](http://augmented-rss.herokuapp.com)).
