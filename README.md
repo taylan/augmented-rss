@@ -10,6 +10,7 @@ So far, these are the augmenters I've added. Feel free to add your own and send 
 - [Dilbert](http://www.dilbert.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/dilbert)
 - [Saturday Morning Breakfast Cereal](http://www.smbc-comics.com/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/smbc)
 - [Hover States](http://hoverstat.es/) - [Augmented Feed](http://augmented-rss.herokuapp.com/feed/hover-states)
+- [Awwwards](http://www.awwwards.com/) - [Awwwards Feed](http://augmented-rss.herokuapp.com/feed/awwwards)
 
 
 The app is hosted on Heroku ([http://augmented-rss.herokuapp.com](http://augmented-rss.herokuapp.com)).
