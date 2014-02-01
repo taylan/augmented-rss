@@ -22,7 +22,7 @@ class AwwwardsFeed(AugmentedFeedBase):
             PyRSS2Gen.RSSItem(
                 title=x.title,
                 link=x.link,
-                description='<a href="{0}">View Site</a><br>{1}'.format(self._get_page_url(x.link), x.description),
+                description='{0}<br><a href="{1}">View Site</a>'.format(x.description, self._get_page_url(x.link)),
                 pubDate=datetime(
                     x.published_parsed[0],
                     x.published_parsed[1],
