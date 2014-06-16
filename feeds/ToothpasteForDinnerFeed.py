@@ -25,7 +25,7 @@ class ToothpasteForDinnerFeed(AugmentedFeedBase):
             PyRSS2Gen.RSSItem(
                 title=x.title,
                 link=x.link,
-                description='<img src="{0}" />{1}'.format(self._get_comic_image_path(images, int(x.link.split('=')[1])), x.description),
+                description='<img src="{0}" />{1}'.format(self._get_comic_image_path(images, int(x.guid.split('=')[1])), x.description),
                 guid=x.link,
                 pubDate=datetime(
                     x.published_parsed[0],
